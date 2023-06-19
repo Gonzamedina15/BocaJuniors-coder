@@ -59,7 +59,7 @@ main{
 }
 /* titulo y banner */
 .titulo{
-    background-image: url(../medios/fondo2.jpg);
+    background-image: url(../medios/bannerindex2.jpg);
     height: 200px;
     background-size: cover;
 }

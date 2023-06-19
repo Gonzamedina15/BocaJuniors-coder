@@ -1,0 +1,408 @@
+/* #0033A0
+  #F6F1F1
+   #FFFFF
+   #ffd600
+   */
+
+
+
+/* HEADRER */
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+}
+header img{
+    max-width: 75px;
+    height: auto;
+}
+/* Nav bar */  
+  .main{
+    padding-top: 70px; /* Ajusta el margen superior según el tamaño del nav bar */
+    margin-top: 0;
+  }
+  
+.nav-link{
+    font-family: 'Oswald', sans-serif;
+    color: #ffd600;   
+
+}
+.nav-link:hover{
+    color: #ffd600;
+    text-decoration: underline;
+}
+
+.fondo{
+    background-color: #0033a0;
+}
+.navbar-toggler{
+   color: #F6F1F1;
+   background-color: #ffd600;
+}
+
+
+/* HEADER */
+/* FOOTER */
+footer img{
+    max-width: 60px;
+    height: auto;
+}
+footer{
+    background-color: #0033a0;
+    color: #ffd600;
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+/* INDEX */
+main{
+    background-color: #F6F1F1;
+}
+/* titulo y banner */
+.titulo{
+    background-image: url(../medios/fondo2.jpg);
+    height: 200px;
+    background-size: cover;
+}
+.titulo h1{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color:#ffd600;
+    text-shadow: 0px 0px 7px rgba(0,0,0,0.57);
+    text-decoration: underline;
+}
+/* presentacion */
+.presentacion{
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+}
+
+.presentacion p{
+    text-align: justify;
+    text-shadow: 0px 0px 7px rgba(0,0,0,0.57);
+}
+.presentacion iframe{
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.74);
+    border-radius: 12px 12px 12px 12px;
+    width: 600px;
+}
+
+/* boca hoy */
+.noticias{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #0033a0;
+    background-color: #ffd600;
+}
+
+.noticias h2{
+    font-family: 'Oswald', sans-serif;
+    text-decoration: underline;
+    text-align: center;
+    
+}
+.noticias h3{
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration: underline;
+}
+.not1{
+   display: flex;
+   flex-direction: column;
+
+  
+}
+.not1 img{
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.74);
+    width: 65%;
+}
+/* cards */
+.bvp{
+   width: 300px;
+}
+.rojo{
+   width: 300px;
+}
+.medina{
+   width: 300px;
+}
+.card{
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.74);
+    font-size: 120%;
+    background-color: #0033a0;
+
+}
+.card a{
+    color: #ffd600;
+}
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+  /* Plantel 2023 */
+  main{
+    background-color: #F6F1F1;
+  }
+  /* banner */
+  .banner h1{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color:#ffd600;
+    text-shadow: 0px 0px 7px rgba(0,0,0,0.57);
+    text-decoration: underline;
+  }
+  .banner{
+    background-image: url(../medios/bannerplantel2023.jpg);
+    height: 200px;
+    background-size: cover;
+
+  }
+  /* jugadores */
+  
+  .jugadores h2{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color:#0033a0;
+   text-decoration: underline;
+  
+    
+  }
+
+  /* cards */
+    
+  .card{
+    font-family: 'Bebas Neue', sans-serif;
+    color:#ffd600;
+    background-color: #0033a0;
+    font-size: 150%;
+    text-shadow: none;
+    text-decoration: none;
+  }
+  .card ul{
+    list-style-type: none;
+  }
+
+  /* cuerpo tecnico */
+ .card2{
+    height: 190px;
+ }
+ .card3{
+    height: 190px;
+ } 
+  
+ .cuerpo-tecnico{
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        color:#0033a0;
+       text-decoration: underline;
+ }
+ /* ---------------------------------------------------------------------------------------------------------------- */
+ /* HITOS HISTORICOS */
+ .hitos{
+    background-image: url(../medios/bannerhh2.jpg);
+    height: 200px;
+    background-size: cover;
+ }
+ 
+ .hitos h1{
+    font-family: 'Oswald', sans-serif;
+    color:#ffd600;
+    text-shadow: 0px 0px 7px rgba(0,0,0,0.57);
+    text-decoration: underline;
+ }
+ /* La sexta */
+ .la-sexta{
+    background-color: #F6F1F1;
+ }
+.la-sexta h2{
+    font-family: 'Oswald', sans-serif;
+    color:#0033a0;
+    text-decoration: underline;
+}
+.la-sexta p{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #0033a0;
+    text-align: justify;
+
+}
+ .carousel-inner{
+    width: 600px;
+ }
+ /* intercontinental 2003 */
+ .intercontinental{
+    background-color: #ffd600;
+ }
+ .intercontinental h2{
+    font-family: 'Oswald', sans-serif;
+    color:#0033a0;
+    text-decoration: underline;
+ }
+ .intercontinental p{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #0033a0;
+    text-align: justify;
+
+ }
+ /* ------------------------------------------------------------------------------------------------------------- */
+ /* Contactanos */
+ .contactanos h1{
+    font-family: 'Oswald', sans-serif;
+    color:#0033a0;
+    text-decoration: underline;
+ }
+ .contactanos{
+    background-color: #F6F1F1;
+    color: #0033a0;
+    font-family: 'Bebas Neue', sans-serif;
+
+ }
+ .formulario{
+    font-size: 20px;
+ }
+ .btn{
+    color: #ffd600;
+    font-size: 20px;
+    background-color: #0033a0;
+ }
+ .btn:hover{
+    color: #ffd600;
+    background-color: #0033a0;
+    text-decoration: underline;
+ }
+ /* ------------------------------------------------------------------------------------------------------------------------------------------------ */
+ /* La Bombonera */
+ .laBombonera{
+    background-color: #F6F1F1;
+ }
+ .bombonera{
+    background-image: url(../medios/bombonerabanner.jpg);
+    height: 200px;
+    background-size: cover;
+  
+
+ }
+ .bombonera h1{
+    font-family: 'Oswald', sans-serif;
+    color:#ffd600;
+    text-shadow: 0px 0px 7px rgba(0,0,0,0.57);
+    text-decoration: underline;
+ }
+ .historia{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #0033a0;
+    text-align: justify;
+
+ }
+ .historia iframe{
+   width: 600px;
+   box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.74);
+   border-radius: 12px 12px 12px 12px;
+ }
+ .historia h2{
+    font-family: 'Oswald', sans-serif;
+    color: #0033a0;
+    text-decoration: underline;
+ }
+ /* galeria */
+ .galeria{
+    background-color: #ffd600;
+ }
+ .galeria h2{
+    font-family: 'Oswald', sans-serif;
+    color: #0033a0;
+    text-decoration: underline;
+ }
+ .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 5px;
+    border: 5px solid transparent;
+    box-sizing: border-box; 
+  }
+
+  .img1{
+    grid-column: 1;
+    grid-row: 1;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.75);
+  }
+
+  .img2{
+    grid-column: 2;
+    grid-row: 1;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.75);
+  }
+
+  .img3{
+    grid-column: 1;
+    grid-row: 2/3;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.75);
+  }
+  .img4{
+    grid-column: 2;
+    grid-row: 2;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.75);
+  }
+  .img5{
+    grid-column: 2;
+    grid-row: 3;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.75);
+  }
+
+  .grid-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  
+  }
+  /* -------------------------------------------------------------------------------------------------------------------------- */
+  /* responsive */
+  @media screen and (max-width: 650px) {
+
+ 
+  /*Index*/
+  /* noticia1 */
+  .not1{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  }
+  .not1 h3{
+   text-align: center;
+  }
+  .not1 p{
+   text-align: center;
+   text-align: justify;
+  }
+  .not1 img{
+   width: 80%;
+  }
+  /* iframe */
+ .presentacion iframe{
+   width: 500px;
+ }
+ /* cards */
+ .medina{
+   display: none;
+ }
+
+ /* La bombonera */
+.historia iframe{
+   width: 500px;
+   margin-bottom: 10px;
+}
+.historia h2{
+   text-align: center;
+}
+.img5{
+   display: none;
+}
+.grid-container{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: repeat(2, 1fr);
+   grid-gap: 5px;
+}
+ 
+  }

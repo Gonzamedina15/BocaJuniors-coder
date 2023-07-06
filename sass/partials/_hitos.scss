@@ -1,0 +1,38 @@
+//  ------------------------------------------------------------
+ /* HITOS HISTORICOS */
+// HITOS HISTORICOS
+.hitos{
+    background-image: url(../medios/bannerhh2.jpg);
+    height: 200px;
+    background-size: cover;
+    h1{
+        @include titulos(center,#ffd600,0px 0px 7px rgba(0,0,0,0.57),underline);
+        font-family: 'Oswald', sans-serif;
+    }
+ }
+ /* La sexta */
+//  La sexta
+ .la-sexta{
+    background-color: #F6F1F1;
+    h2{
+        font-family: 'Oswald', sans-serif;
+        color:#0033a0;
+        text-decoration: underline;
+    }
+    p{
+        font-family: 'Bebas Neue', sans-serif;
+        color: #0033a0;
+        text-align: justify;
+    
+    }
+ }
+ .carousel-inner{
+    width: 600px;
+ }
+
+ /* intercontinental 2003 */
+//  Intercontinental 2003
+ .intercontinental{
+    @extend .la-sexta;
+    background-color: #ffd600;
+ }

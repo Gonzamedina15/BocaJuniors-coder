@@ -1,0 +1,53 @@
+ /* responsive */
+ @media screen and (max-width: 650px) {
+
+    //INDEX
+    /*Index*/
+    // noticia1
+    /* noticia1 */
+    .not1{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+      h3{
+        text-align: center;
+       }
+      p{
+        text-align: center;
+        text-align: justify;
+      }
+      img{
+        width: 80%;
+       }
+    } 
+    // iframe
+    /* iframe */
+   .presentacion iframe{
+     width: 500px;
+   }
+    //cards   
+   /* cards */
+   .medina{
+     display: none;
+   }
+//   La Bombonera
+   /* La bombonera */
+  .historia iframe{
+     width: 500px;
+     margin-bottom: 10px;
+  }
+  .historia h2{
+     text-align: center;
+  }
+  .img5{
+     display: none;
+  }
+  .grid-container{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     grid-template-rows: repeat(2, 1fr);
+     grid-gap: 5px;
+  }
+   
+}

@@ -1,0 +1,53 @@
+/* Plantel 2023 */
+// plantel 2023
+main{
+    background-color: #F6F1F1;
+}
+/*banner*/
+// Banner
+.banner{
+    background-image: url(../medios/bannerplantel2023.jpg);
+    height: 200px;
+    background-size: cover;
+    h1{
+        @include titulos(center,#ffd600,0px 0px 7px rgba(0,0,0,0.57),underline);
+        font-family: 'Oswald', sans-serif;
+    }
+    
+}
+/*jugadores*/
+// Jugadores
+.jugadores h2{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color:#0033a0;
+   text-decoration: underline;
+}
+
+ /* cards */
+// Cards
+ .card{
+    font-family: 'Bebas Neue', sans-serif;
+    color:#ffd600;
+    background-color: #0033a0;
+    font-size: 150%;
+    text-shadow: none;
+    text-decoration: none;
+    ul{
+        list-style-type: none;
+      }
+  }
+/*Cuerpo tecnico*/
+// Cuerpo Tecnico
+.cuerpo-tecnico{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color:#0033a0;
+   text-decoration: underline;
+}
+.card2{
+    height: 190px;
+ }
+ .card3{
+    height: 190px;
+ } 

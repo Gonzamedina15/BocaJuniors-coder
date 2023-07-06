@@ -1,0 +1,47 @@
+// header
+/*HEADER*/
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+    img{
+        max-width: 75px;
+        height: auto;
+    }
+}
+
+// nav bar
+/*nav bar*/
+.main{
+    padding-top: 70px;
+    margin-top: 0;
+}
+.nav-link{
+    font-family: 'Oswald', sans-serif;
+    color: #ffd600;   
+
+}
+.nav-link:hover{
+    color: #ffd600;
+    text-decoration: underline;
+}
+
+.fondo{
+    background-color: #0033a0;
+}
+.navbar-toggler{
+   color: #F6F1F1;
+   background-color: #ffd600;
+}
+
+// footer
+/*FOOTER*/
+footer{
+    background-color: #0033a0;
+    color: #ffd600;
+    img{
+        max-width: 60px;
+        height: auto;
+    }
+
+}

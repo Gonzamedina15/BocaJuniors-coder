@@ -1,0 +1,11 @@
+@mixin titulos($alineacion, $color, $sombra, $decoracion){
+    text-align: $alineacion;
+    color: $color;
+    text-shadow: $sombra;
+    text-decoration: $decoracion;
+}
+
+@mixin estilos-galeria ($box, $borde){
+    box-shadow: $box;
+    border-radius: $borde;
+}

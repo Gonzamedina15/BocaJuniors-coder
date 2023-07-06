@@ -1,0 +1,341 @@
+/*HEADER*/
+header {
+  position: sticky;
+  top: 0px;
+  z-index: 1000;
+}
+header img {
+  max-width: 75px;
+  height: auto;
+}
+
+/*nav bar*/
+.main {
+  padding-top: 70px;
+  margin-top: 0;
+}
+
+.nav-link {
+  font-family: "Oswald", sans-serif;
+  color: #ffd600;
+}
+
+.nav-link:hover {
+  color: #ffd600;
+  text-decoration: underline;
+}
+
+.fondo {
+  background-color: #0033a0;
+}
+
+.navbar-toggler {
+  color: #F6F1F1;
+  background-color: #ffd600;
+}
+
+/*FOOTER*/
+footer {
+  background-color: #0033a0;
+  color: #ffd600;
+}
+footer img {
+  max-width: 60px;
+  height: auto;
+}
+
+/*INDEX*/
+main {
+  background-color: #F6F1F1;
+}
+
+/*titulo y banner*/
+.titulo {
+  background-image: url(../medios/bannerindex2.jpg);
+  height: 200px;
+  background-size: cover;
+}
+.titulo h1 {
+  text-align: center;
+  color: #ffd600;
+  text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.57);
+  text-decoration: underline;
+  font-family: "Oswald", sans-serif;
+}
+
+/*presentacion*/
+.presentacion {
+  font-family: "Bebas Neue", sans-serif;
+  color: black;
+}
+.presentacion p {
+  text-align: justify;
+  text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.57);
+}
+.presentacion iframe {
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.74);
+  border-radius: 12px 12px 12px 12px;
+  width: 600px;
+}
+
+/*boca hoy*/
+.noticias {
+  font-family: "Bebas Neue", sans-serif;
+  color: #0033a0;
+  background-color: #ffd600;
+}
+.noticias .not1 {
+  display: flex;
+  flex-direction: column;
+}
+.noticias .not1 img {
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.74);
+  width: 65%;
+}
+.noticias .not1 h2 {
+  font-family: "Oswald", sans-serif;
+  text-decoration: underline;
+  text-align: center;
+}
+.noticias .not1 h3 {
+  font-family: "Bebas Neue", sans-serif;
+  text-decoration: underline;
+}
+
+/*cards*/
+.card {
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.74);
+  font-size: 120%;
+  background-color: #0033a0;
+}
+.card a {
+  color: #ffd600;
+}
+.card .bvp {
+  width: 300px;
+}
+.card .rojo {
+  width: 300px;
+}
+.card .medina {
+  width: 300px;
+}
+
+/* Plantel 2023 */
+main {
+  background-color: #F6F1F1;
+}
+
+/*banner*/
+.banner {
+  background-image: url(../medios/bannerplantel2023.jpg);
+  height: 200px;
+  background-size: cover;
+}
+.banner h1 {
+  text-align: center;
+  color: #ffd600;
+  text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.57);
+  text-decoration: underline;
+  font-family: "Oswald", sans-serif;
+}
+
+/*jugadores*/
+.jugadores h2 {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  color: #0033a0;
+  text-decoration: underline;
+}
+
+/* cards */
+.card {
+  font-family: "Bebas Neue", sans-serif;
+  color: #ffd600;
+  background-color: #0033a0;
+  font-size: 150%;
+  text-shadow: none;
+  text-decoration: none;
+}
+.card ul {
+  list-style-type: none;
+}
+
+/*Cuerpo tecnico*/
+.cuerpo-tecnico {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  color: #0033a0;
+  text-decoration: underline;
+}
+
+.card2 {
+  height: 190px;
+}
+
+.card3 {
+  height: 190px;
+}
+
+/* HITOS HISTORICOS */
+.hitos {
+  background-image: url(../medios/bannerhh2.jpg);
+  height: 200px;
+  background-size: cover;
+}
+.hitos h1 {
+  text-align: center;
+  color: #ffd600;
+  text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.57);
+  text-decoration: underline;
+  font-family: "Oswald", sans-serif;
+}
+
+/* La sexta */
+.la-sexta, .intercontinental {
+  background-color: #F6F1F1;
+}
+.la-sexta h2, .intercontinental h2 {
+  font-family: "Oswald", sans-serif;
+  color: #0033a0;
+  text-decoration: underline;
+}
+.la-sexta p, .intercontinental p {
+  font-family: "Bebas Neue", sans-serif;
+  color: #0033a0;
+  text-align: justify;
+}
+
+.carousel-inner {
+  width: 600px;
+}
+
+/* intercontinental 2003 */
+.intercontinental {
+  background-color: #ffd600;
+}
+
+/* ------------------------------------------------------------------*/
+/* La Bombonera */
+.laBombonera {
+  background-color: #F6F1F1;
+}
+
+.bombonera {
+  background-image: url(../medios/bombonerabanner.jpg);
+  height: 200px;
+  background-size: cover;
+}
+.bombonera h1 {
+  text-align: center;
+  color: #ffd600;
+  text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.57);
+  text-decoration: underline;
+  font-family: "Oswald", sans-serif;
+}
+
+.historia {
+  font-family: "Bebas Neue", sans-serif;
+  color: #0033a0;
+  text-align: justify;
+}
+.historia iframe {
+  width: 600px;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.74);
+  border-radius: 12px 12px 12px 12px;
+}
+.historia h2 {
+  font-family: "Oswald", sans-serif;
+  color: #0033a0;
+  text-decoration: underline;
+}
+
+/* galeria */
+.galeria {
+  background-color: #ffd600;
+}
+.galeria h2 {
+  font-family: "Oswald", sans-serif;
+  color: #0033a0;
+  text-decoration: underline;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 5px;
+  border: 5px solid transparent;
+  box-sizing: border-box;
+}
+.grid-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.grid-container .img1 {
+  grid-column: 1;
+  grid-row: 1;
+  box-shadow: 0px 0px 23px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 10px 10px 10px 10px;
+}
+.grid-container .img2 {
+  grid-column: 2;
+  grid-row: 1;
+  box-shadow: 0px 0px 23px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 10px 10px 10px 10px;
+}
+.grid-container .img3 {
+  grid-column: 1;
+  grid-row: 2/3;
+  box-shadow: 0px 0px 23px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 10px 10px 10px 10px;
+}
+.grid-container .img4 {
+  grid-column: 2;
+  grid-row: 2;
+  box-shadow: 0px 0px 23px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 10px 10px 10px 10px;
+}
+.grid-container .img5 {
+  grid-column: 2;
+  grid-row: 3;
+  box-shadow: 0px 0px 23px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 10px 10px 10px 10px;
+}
+
+/*-------------------------------------------------------------*/
+/*Contactanos*/
+.contactanos {
+  background-color: #F6F1F1;
+  color: #0033a0;
+  font-family: "Bebas Neue", sans-serif;
+}
+.contactanos h1 {
+  text-align: center;
+  color: #ffd600;
+  text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.57);
+  text-decoration: underline;
+  font-family: "Oswald", sans-serif;
+  color: #0033a0;
+  text-align: start;
+  text-shadow: none;
+}
+
+.formulario {
+  font-size: 20px;
+}
+
+.btn {
+  color: #ffd600;
+  font-size: 20px;
+  background-color: #0033a0;
+}
+
+.btn:hover {
+  color: #ffd600;
+  background-color: #0033a0;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=estilos2.css.map */

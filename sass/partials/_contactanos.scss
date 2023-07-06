@@ -1,0 +1,28 @@
+/*-------------------------------------------------------------*/
+/*Contactanos*/
+// Contactanos
+.contactanos{
+    background-color: #F6F1F1;
+    color: #0033a0;
+    font-family: 'Bebas Neue', sans-serif;
+    h1{
+        @include titulos(center,#ffd600,0px 0px 7px rgba(0,0,0,0.57),underline);
+        font-family: 'Oswald', sans-serif;
+        color: #0033a0;
+        text-align: start;
+        text-shadow: none;
+    }
+ }
+ .formulario{
+    font-size: 20px;
+ }
+ .btn{
+    color: #ffd600;
+    font-size: 20px;
+    background-color: #0033a0;
+ }
+ .btn:hover{
+    color: #ffd600;
+    background-color: #0033a0;
+    text-decoration: underline;
+ }

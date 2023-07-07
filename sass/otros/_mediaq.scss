@@ -52,5 +52,31 @@
      grid-template-rows: repeat(2, 1fr);
      grid-gap: 5px;
   }
-   
+
+//   Hitos historicos
+/*hitos historicos*/
+  .la-sexta h2{
+   text-align: center;
+  }
+  .carousel-inner{
+   margin-bottom: 10px;
+  }
+
+//   Plantel 2023
+/*plantel 2023*/
+.espacios{
+   padding-left: 10px;
+   padding-right: 3px;
+}
+// Contactanos
+/*contactanos*/
+.contactanos{
+   h1{
+      text-align: center;
+   }
+   p{
+      text-align: center;
+   }
+}
+
 }

@@ -18,11 +18,20 @@ main{
 }
 /*jugadores*/
 // Jugadores
-.jugadores h2{
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    color:#0033a0;
-   text-decoration: underline;
+.jugadores{
+    max-width: 100%;
+    max-height: 100%;
+    h2{
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        color:#0033a0;
+       text-decoration: underline;
+    }
+
+}
+
+.espacios{
+    max-width: 100%;
 }
 
  /* cards */
@@ -36,7 +45,8 @@ main{
     text-decoration: none;
     ul{
         list-style-type: none;
-      }
+    }
+    margin-bottom: 10px;
   }
 /*Cuerpo tecnico*/
 // Cuerpo Tecnico
@@ -45,6 +55,9 @@ main{
     font-family: 'Oswald', sans-serif;
     color:#0033a0;
    text-decoration: underline;
+   background-color: #ffd600;
+   border: 5px solid transparent;
+   box-sizing: border-box; 
 }
 .card2{
     height: 190px;
@@ -52,3 +65,4 @@ main{
  .card3{
     height: 190px;
  } 
+

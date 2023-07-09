@@ -19,13 +19,21 @@ header{
 .nav-link{
     font-family: 'Oswald', sans-serif;
     color: #ffd600;   
+    &:hover{
+        color: #ffd600;
+        text-decoration: underline;
+    }
+    &:focus{
+        color: $color-blanco;
+    }
 
 }
-.nav-link:hover{
-    color: #ffd600;
-    text-decoration: underline;
+.logo{
+    transition: 1s;
+    &:hover{
+        transform: scale(0.8);
+    }
 }
-
 .fondo{
     background-color: #0033a0;
 }

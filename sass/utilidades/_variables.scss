@@ -1,3 +1,4 @@
+// mixin
 @mixin titulos($alineacion, $color, $sombra, $decoracion){
     text-align: $alineacion;
     color: $color;
@@ -9,3 +10,13 @@
     box-shadow: $box;
     border-radius: $borde;
 }
+
+// paleta de colores
+//  #0033A0
+//   #F6F1F1
+//  #00000091
+//    #ffd600
+$color-amarillo: #ffd600;
+$color-azul:  #0033a0;
+$color-blanco: #f6f1f1;
+$color-negro: #000;

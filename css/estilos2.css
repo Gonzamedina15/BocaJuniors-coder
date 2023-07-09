@@ -19,10 +19,19 @@ header img {
   font-family: "Oswald", sans-serif;
   color: #ffd600;
 }
-
 .nav-link:hover {
   color: #ffd600;
   text-decoration: underline;
+}
+.nav-link:focus {
+  color: #f6f1f1;
+}
+
+.logo {
+  transition: 1s;
+}
+.logo:hover {
+  transform: scale(0.8);
 }
 
 .fondo {
@@ -47,7 +56,7 @@ footer img {
 /*---------------------------------------------------------------------*/
 /*INDEX*/
 main {
-  background-color: #F6F1F1;
+  background-color: #f6f1f1;
 }
 
 /*titulo y banner*/
@@ -67,7 +76,7 @@ main {
 /*presentacion*/
 .presentacion {
   font-family: "Bebas Neue", sans-serif;
-  color: black;
+  color: #000;
 }
 .presentacion p {
   text-align: justify;
@@ -125,7 +134,7 @@ main {
 /*--------------------------------------------------------------------------*/
 /* Plantel 2023 */
 main {
-  background-color: #F6F1F1;
+  background-color: #f6f1f1;
 }
 
 /*banner*/
@@ -167,9 +176,13 @@ main {
   text-shadow: none;
   text-decoration: none;
   margin-bottom: 10px;
+  transition: 0.3s;
 }
 .card ul {
   list-style-type: none;
+}
+.card:hover {
+  transform: scale(0.8);
 }
 
 /*Cuerpo tecnico*/
@@ -207,7 +220,7 @@ main {
 
 /* La sexta */
 .la-sexta, .intercontinental {
-  background-color: #F6F1F1;
+  background-color: #f6f1f1;
 }
 .la-sexta h2, .intercontinental h2 {
   font-family: "Oswald", sans-serif;
@@ -286,6 +299,10 @@ main {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  transition: 1s;
+}
+.grid-container img:hover {
+  transform: scale(0.8);
 }
 .grid-container .img1 {
   grid-column: 1;
@@ -321,7 +338,7 @@ main {
 /*-------------------------------------------------------------*/
 /*Contactanos*/
 .contactanos {
-  background-color: #F6F1F1;
+  background-color: #f6f1f1;
   color: #0033a0;
   font-family: "Bebas Neue", sans-serif;
 }
@@ -345,10 +362,14 @@ main {
   font-size: 20px;
   background-color: #0033a0;
 }
-
 .btn:hover {
   color: #ffd600;
   background-color: #0033a0;
+  text-decoration: underline;
+}
+.btn:focus {
+  color: #0033a0;
+  background-color: #ffd600;
   text-decoration: underline;
 }
 

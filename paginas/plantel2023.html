@@ -14,6 +14,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <!-- animate.css -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         
     <!-- css -->
     <link rel="stylesheet" href="../estilos/style.css">
@@ -25,7 +30,7 @@
          <!-- menu -->
          <nav class="navbar navbar-expand-lg fondo fs-5">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html"><img src="../medios/logo.png" alt="escudoDeBoca"></a>
+                <a class="navbar-brand" href="../index.html"><img src="../medios/logo.png" class="logo" alt="escudoDeBoca"></a>
            
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -49,11 +54,11 @@
         <!-- banner -->
         <section>
             <div class="banner d-flex align-items-center justify-content-center">
-                <h1>Plantel-Primera Division</h1>
+                <h1 class="jugadores animate__animated animate__fadeInRight">Plantel-Primera Division</h1>
               </div>
         </section>
         <!-- jugadores -->
-        <section class="jugadores">
+        <section class="jugadores animate__animated animate__fadeInRight">
             <h2>Jugadores</h2>
             <!-- segunda prueba jugadores xd -->
                 <div class="container d-flex justify-content-center align-items-center">
@@ -160,7 +165,7 @@
         </section>
         <!-- cuerpo tecnico -->
         <section class="cuerpo-tecnico">
-            <div>
+            <div data-aos="zoom-in">
                 <h2>Cuerpo Tecnico</h2>
                <p class="fs-5">Director tecnico: Jorgue Almiron</p>
                <p class="fs-5" >Ayudante de campo: Maximiliano Velazques</p>
@@ -187,5 +192,8 @@
         </div>
     </footer>    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>

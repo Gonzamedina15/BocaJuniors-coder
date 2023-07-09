@@ -6,22 +6,22 @@
     height: 200px;
     background-size: cover;
     h1{
-        @include titulos(center,#ffd600,0px 0px 7px rgba(0,0,0,0.57),underline);
+        @include titulos(center,$color-amarillo,0px 0px 7px rgba(0,0,0,0.57),underline);
         font-family: 'Oswald', sans-serif;
     }
  }
  /* La sexta */
 //  La sexta
  .la-sexta{
-    background-color: #F6F1F1;
+    background-color: $color-blanco;
     h2{
         font-family: 'Oswald', sans-serif;
-        color:#0033a0;
+        color:$color-azul;
         text-decoration: underline;
     }
     p{
         font-family: 'Bebas Neue', sans-serif;
-        color: #0033a0;
+        color: $color-azul;
         text-align: justify;
     
     }
@@ -34,5 +34,5 @@
 //  Intercontinental 2003
  .intercontinental{
     @extend .la-sexta;
-    background-color: #ffd600;
+    background-color: $color-amarillo;
  }

@@ -8,39 +8,44 @@ header{
         max-width: 75px;
         height: auto;
     }
+      // nav bar
+    /*nav bar*/  
+    nav{
+        .nav-link{
+            font-family: 'Oswald', sans-serif;
+            color: #ffd600;   
+            &:hover{
+                color: #ffd600;
+                text-decoration: underline;
+            }
+            &:focus{
+                color: $color-blanco;
+            }
+        
+        }
+        .logo{
+            transition: 1s;
+            &:hover{
+                transform: scale(0.8);
+            }
+        }
+        .navbar-toggler{
+            color: #F6F1F1;
+            background-color: #ffd600;
+        }
+    }
+
 }
 
-// nav bar
-/*nav bar*/
+
 .main{
     padding-top: 70px;
     margin-top: 0;
 }
-.nav-link{
-    font-family: 'Oswald', sans-serif;
-    color: #ffd600;   
-    &:hover{
-        color: #ffd600;
-        text-decoration: underline;
-    }
-    &:focus{
-        color: $color-blanco;
-    }
-
-}
-.logo{
-    transition: 1s;
-    &:hover{
-        transform: scale(0.8);
-    }
-}
 .fondo{
     background-color: #0033a0;
 }
-.navbar-toggler{
-   color: #F6F1F1;
-   background-color: #ffd600;
-}
+
 
 // footer
 /*FOOTER*/

@@ -12,22 +12,25 @@
         text-align: start;
         text-shadow: none;
     }
- }
- .formulario{
-    font-size: 20px;
- }
- .btn{
-    color: $color-amarillo;
-    font-size: 20px;
-    background-color: $color-azul;
-   &:hover{
-      color: #ffd600;
-      background-color: #0033a0;
-      text-decoration: underline;
+    .formulario{
+      font-size: 20px;
+      .btn{
+         color: $color-amarillo;
+         font-size: 20px;
+         background-color: $color-azul;
+        &:hover{
+           color: #ffd600;
+           background-color: #0033a0;
+           text-decoration: underline;
+        }
+        &:focus{
+           color: $color-azul;
+           background-color: $color-amarillo;
+           text-decoration: underline;
+        }
+      }
+     
    }
-   &:focus{
-      color: $color-azul;
-      background-color: $color-amarillo;
-      text-decoration: underline;
-   }
  }
+ 
+ 

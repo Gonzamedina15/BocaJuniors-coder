@@ -1,15 +1,14 @@
 /*--------------------------------------------------------------------------*/
 /* Plantel 2023 */
 // plantel 2023
-main{
-    background-color: $color-blanco;
-}
+   
 /*banner*/
 // Banner
 .banner{
     background-image: url(../medios/bannerplantel2023.jpg);
     height: 200px;
     background-size: cover;
+    background-color: $color-blanco;
     h1{
         @include titulos(center,$color-amarillo,0px 0px 7px rgba(0,0,0,0.57),underline);
         font-family: 'Oswald', sans-serif;
@@ -25,50 +24,51 @@ main{
         text-align: center;
         font-family: 'Oswald', sans-serif;
         color:$color-azul;
-       text-decoration: underline;
+    text-decoration: underline;
     }
-
+    /* cards */
+    // Cards
+    .card{
+        font-family: 'Bebas Neue', sans-serif;
+        color:$color-amarillo;
+        background-color: $color-azul;
+        font-size: 150%;
+        text-shadow: none;
+        text-decoration: none;
+        margin-bottom: 10px;
+        box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.74);
+        transition: 0.3s;
+        ul{
+            list-style-type: none;
+        }
+    
+        &:hover{
+        transform: scale(0.8);
+            
+        }
+    }
 }
-
-.espacios{
-    max-width: 100%;
-}
-
- /* cards */
-// Cards
- .card{
-    font-family: 'Bebas Neue', sans-serif;
-    color:$color-amarillo;
-    background-color: $color-azul;
-    font-size: 150%;
-    text-shadow: none;
-    text-decoration: none;
-    margin-bottom: 10px;
-    transition: 0.3s;
-    ul{
-        list-style-type: none;
-    }
-  
-    &:hover{
-       transform: scale(0.8);
-        
-    }
-  }
 /*Cuerpo tecnico*/
 // Cuerpo Tecnico
 .cuerpo-tecnico{
     text-align: center;
     font-family: 'Oswald', sans-serif;
     color:$color-azul;
-   text-decoration: underline;
-   background-color: $color-amarillo;
-   border: 5px solid transparent;
-   box-sizing: border-box; 
+text-decoration: underline;
+background-color: $color-amarillo;
+border: 5px solid transparent;
+box-sizing: border-box; 
 }
-.card2{
-    height: 190px;
- }
- .card3{
-    height: 190px;
- } 
+.espacios{
+    max-width: 100%;
+}
+
+
+
+
+
+
+ 
+
+
 

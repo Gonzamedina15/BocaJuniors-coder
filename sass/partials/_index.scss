@@ -1,9 +1,6 @@
 /*---------------------------------------------------------------------*/
 // INDEX
 /*INDEX*/
-main{
-    background-color: $color-blanco;
-}
 
 // titulo y banner
 /*titulo y banner*/
@@ -12,15 +9,15 @@ main{
     height: 200px;
     background-size: cover;
     h1{
-       @include titulos(center, $color-amarillo, 0px 0px 7px rgba(0,0,0,0.57), underline );
-       font-family: 'Oswald', sans-serif;
+    @include titulos(center, $color-amarillo, 0px 0px 7px rgba(0,0,0,0.57), underline );
+    font-family: 'Oswald', sans-serif;
     }
 
 }
-
 // presentacion
 /*presentacion*/
 .presentacion{
+    background-color: $color-blanco;
     font-family: 'Bebas Neue', sans-serif;
     color: $color-negro;
     p{
@@ -33,7 +30,6 @@ main{
         width: 600px;
     }
 }
-
 // boca hoy
 /*boca hoy*/
 
@@ -58,26 +54,41 @@ main{
             font-family: 'Bebas Neue', sans-serif;
             text-decoration: underline;
         }
-       
-     }
-}
-//  cards
-/*cards*/
-.card{
-    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.74);
-    font-size: 120%;
-    background-color: $color-azul;
-    a{
-        color: $color-amarillo;
+    
     }
-    .bvp{
-        width: 300px;
-     }
-     .rojo{
-        width: 300px;
-     }
-     .medina{
-        width: 300px;
-     }
-     
+    //  cards
+    /*cards*/
+    .card{
+        box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.74);
+        font-size: 120%;
+        background-color: $color-azul;
+        transition: 1s;
+        &:hover{
+            transform: scale(0.8);
+        }
+        p{
+            color: $color-amarillo;
+        }
+        a{
+            color: $color-amarillo;
+        }
+        .bvp{
+            width: 300px;
+        }
+        .rojo{
+            width: 300px;
+        }
+        .medina{
+            width: 300px;
+        }
+        
+    }
 }
+
+
+
+
+
+
+
+

@@ -1,13 +1,10 @@
 /* ------------------------------------------------------------------*/
  /* La Bombonera */
-
- .laBombonera{
-    background-color: #F6F1F1;
- }
  .bombonera{
     background-image: url(../medios/bombonerabanner.jpg);
     height: 200px;
     background-size: cover;
+    background-color: $color-blanco;
     h1{
         @include titulos(center,#ffd600,0px 0px 7px rgba(0,0,0,0.57),underline);
         font-family: 'Oswald', sans-serif;

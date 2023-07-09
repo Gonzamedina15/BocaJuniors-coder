@@ -3,44 +3,41 @@ header {
   position: sticky;
   top: 0px;
   z-index: 1000;
+  /*nav bar*/
 }
 header img {
   max-width: 75px;
   height: auto;
 }
+header nav .nav-link {
+  font-family: "Oswald", sans-serif;
+  color: #ffd600;
+}
+header nav .nav-link:hover {
+  color: #ffd600;
+  text-decoration: underline;
+}
+header nav .nav-link:focus {
+  color: #f6f1f1;
+}
+header nav .logo {
+  transition: 1s;
+}
+header nav .logo:hover {
+  transform: scale(0.8);
+}
+header nav .navbar-toggler {
+  color: #F6F1F1;
+  background-color: #ffd600;
+}
 
-/*nav bar*/
 .main {
   padding-top: 70px;
   margin-top: 0;
 }
 
-.nav-link {
-  font-family: "Oswald", sans-serif;
-  color: #ffd600;
-}
-.nav-link:hover {
-  color: #ffd600;
-  text-decoration: underline;
-}
-.nav-link:focus {
-  color: #f6f1f1;
-}
-
-.logo {
-  transition: 1s;
-}
-.logo:hover {
-  transform: scale(0.8);
-}
-
 .fondo {
   background-color: #0033a0;
-}
-
-.navbar-toggler {
-  color: #F6F1F1;
-  background-color: #ffd600;
 }
 
 /*FOOTER*/
@@ -55,10 +52,6 @@ footer img {
 
 /*---------------------------------------------------------------------*/
 /*INDEX*/
-main {
-  background-color: #f6f1f1;
-}
-
 /*titulo y banner*/
 .titulo {
   background-image: url(../medios/bannerindex2.jpg);
@@ -75,6 +68,7 @@ main {
 
 /*presentacion*/
 .presentacion {
+  background-color: #f6f1f1;
   font-family: "Bebas Neue", sans-serif;
   color: #000;
 }
@@ -93,6 +87,7 @@ main {
   font-family: "Bebas Neue", sans-serif;
   color: #0033a0;
   background-color: #ffd600;
+  /*cards*/
 }
 .noticias .not1 {
   display: flex;
@@ -111,37 +106,39 @@ main {
   font-family: "Bebas Neue", sans-serif;
   text-decoration: underline;
 }
-
-/*cards*/
-.card {
+.noticias .card {
   box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.74);
   font-size: 120%;
   background-color: #0033a0;
+  transition: 1s;
 }
-.card a {
+.noticias .card:hover {
+  transform: scale(0.8);
+}
+.noticias .card p {
   color: #ffd600;
 }
-.card .bvp {
+.noticias .card a {
+  color: #ffd600;
+}
+.noticias .card .bvp {
   width: 300px;
 }
-.card .rojo {
+.noticias .card .rojo {
   width: 300px;
 }
-.card .medina {
+.noticias .card .medina {
   width: 300px;
 }
 
 /*--------------------------------------------------------------------------*/
 /* Plantel 2023 */
-main {
-  background-color: #f6f1f1;
-}
-
 /*banner*/
 .banner {
   background-image: url(../medios/bannerplantel2023.jpg);
   height: 200px;
   background-size: cover;
+  background-color: #f6f1f1;
 }
 .banner h1 {
   text-align: center;
@@ -155,6 +152,7 @@ main {
 .jugadores {
   max-width: 100%;
   max-height: 100%;
+  /* cards */
 }
 .jugadores h2 {
   text-align: center;
@@ -162,13 +160,7 @@ main {
   color: #0033a0;
   text-decoration: underline;
 }
-
-.espacios {
-  max-width: 100%;
-}
-
-/* cards */
-.card {
+.jugadores .card {
   font-family: "Bebas Neue", sans-serif;
   color: #ffd600;
   background-color: #0033a0;
@@ -176,12 +168,13 @@ main {
   text-shadow: none;
   text-decoration: none;
   margin-bottom: 10px;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.74);
   transition: 0.3s;
 }
-.card ul {
+.jugadores .card ul {
   list-style-type: none;
 }
-.card:hover {
+.jugadores .card:hover {
   transform: scale(0.8);
 }
 
@@ -196,12 +189,8 @@ main {
   box-sizing: border-box;
 }
 
-.card2 {
-  height: 190px;
-}
-
-.card3 {
-  height: 190px;
+.espacios {
+  max-width: 100%;
 }
 
 /* HITOS HISTORICOS */
@@ -232,8 +221,7 @@ main {
   color: #0033a0;
   text-align: justify;
 }
-
-.carousel-inner {
+.la-sexta .carousel-inner, .intercontinental .carousel-inner {
   width: 600px;
 }
 
@@ -244,14 +232,11 @@ main {
 
 /* ------------------------------------------------------------------*/
 /* La Bombonera */
-.laBombonera {
-  background-color: #F6F1F1;
-}
-
 .bombonera {
   background-image: url(../medios/bombonerabanner.jpg);
   height: 200px;
   background-size: cover;
+  background-color: #f6f1f1;
 }
 .bombonera h1 {
   text-align: center;
@@ -352,22 +337,20 @@ main {
   text-align: start;
   text-shadow: none;
 }
-
-.formulario {
+.contactanos .formulario {
   font-size: 20px;
 }
-
-.btn {
+.contactanos .formulario .btn {
   color: #ffd600;
   font-size: 20px;
   background-color: #0033a0;
 }
-.btn:hover {
+.contactanos .formulario .btn:hover {
   color: #ffd600;
   background-color: #0033a0;
   text-decoration: underline;
 }
-.btn:focus {
+.contactanos .formulario .btn:focus {
   color: #0033a0;
   background-color: #ffd600;
   text-decoration: underline;

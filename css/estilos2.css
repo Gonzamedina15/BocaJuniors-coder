@@ -70,11 +70,10 @@ footer img {
 .presentacion {
   background-color: #f6f1f1;
   font-family: "Bebas Neue", sans-serif;
-  color: #000;
+  color: #0033a0;
 }
 .presentacion p {
   text-align: justify;
-  text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.57);
 }
 .presentacion iframe {
   box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.74);
@@ -95,7 +94,7 @@ footer img {
 }
 .noticias .not1 img {
   box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.74);
-  width: 65%;
+  width: 80%;
 }
 .noticias .not1 h2 {
   font-family: "Oswald", sans-serif;
@@ -107,10 +106,16 @@ footer img {
   text-decoration: underline;
 }
 .noticias .card {
-  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.74);
-  font-size: 120%;
+  font-family: "Bebas Neue", sans-serif;
+  color: #ffd600;
   background-color: #0033a0;
-  transition: 1s;
+  font-size: 150%;
+  text-shadow: none;
+  text-decoration: none;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.74);
+  transition: 0.3s;
+  margin-bottom: 10px;
 }
 .noticias .card:hover {
   transform: scale(0.8);
@@ -120,15 +125,6 @@ footer img {
 }
 .noticias .card a {
   color: #ffd600;
-}
-.noticias .card .bvp {
-  width: 300px;
-}
-.noticias .card .rojo {
-  width: 300px;
-}
-.noticias .card .medina {
-  width: 300px;
 }
 
 /*--------------------------------------------------------------------------*/
@@ -150,8 +146,6 @@ footer img {
 
 /*jugadores*/
 .jugadores {
-  max-width: 100%;
-  max-height: 100%;
   /* cards */
 }
 .jugadores h2 {
@@ -170,9 +164,6 @@ footer img {
   margin-bottom: 10px;
   box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.74);
   transition: 0.3s;
-}
-.jugadores .card ul {
-  list-style-type: none;
 }
 .jugadores .card:hover {
   transform: scale(0.8);
@@ -220,9 +211,6 @@ footer img {
   font-family: "Bebas Neue", sans-serif;
   color: #0033a0;
   text-align: justify;
-}
-.la-sexta .carousel-inner, .intercontinental .carousel-inner {
-  width: 600px;
 }
 
 /* intercontinental 2003 */
@@ -358,7 +346,8 @@ footer img {
 
 /*-------------------------------------------------------------------------*/
 /* responsive */
-@media screen and (max-width: 650px) {
+/*tablet*/
+@media screen and (max-width: 1024px) {
   /*Index*/
   /* noticia1 */
   .not1 {
@@ -379,7 +368,65 @@ footer img {
   }
   /* iframe */
   .presentacion iframe {
-    width: 500px;
+    width: 100%;
+  }
+  /* cards */
+  .medina {
+    display: none;
+  }
+  /* La bombonera */
+  .historia iframe {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .historia h2 {
+    text-align: center;
+  }
+  /*hitos historicos*/
+  .la-sexta h2, .intercontinental h2 {
+    text-align: center;
+  }
+  .carousel {
+    margin-bottom: 20px;
+  }
+  /*contactanos*/
+  .contactanos h1 {
+    text-align: center;
+  }
+  .contactanos p {
+    text-align: center;
+  }
+  .contactanos .formulario iframe {
+    margin-top: 5px;
+    width: 100%;
+  }
+}
+/*mobile*/
+@media screen and (max-width: 576px) {
+  header {
+    max-width: 100%;
+  }
+  /*Index*/
+  /* noticia1 */
+  .not1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .not1 h3 {
+    text-align: center;
+  }
+  .not1 p {
+    text-align: center;
+    text-align: justify;
+  }
+  .not1 img {
+    width: 80%;
+  }
+  /* iframe */
+  .presentacion iframe {
+    width: 100%;
   }
   /* cards */
   .medina {
@@ -406,13 +453,30 @@ footer img {
   .la-sexta h2, .intercontinental h2 {
     text-align: center;
   }
-  .carousel-inner {
-    margin-bottom: 10px;
+  .carousel {
+    margin-bottom: 20px;
   }
   /*plantel 2023*/
   .espacios {
     padding-left: 10px;
     padding-right: 3px;
+  }
+  .card {
+    transition: none;
+  }
+  .card img {
+    width: 100%;
+  }
+  .card .card-body {
+    padding: 0;
+  }
+  .card .card-body p {
+    font-size: 80%;
+    padding: 5px;
+    margin: 0;
+  }
+  .card .card-body:hover {
+    transform: none;
   }
   /*contactanos*/
   .contactanos h1 {
@@ -420,6 +484,10 @@ footer img {
   }
   .contactanos p {
     text-align: center;
+  }
+  .contactanos .formulario iframe {
+    margin-top: 5px;
+    width: 100%;
   }
 }
 

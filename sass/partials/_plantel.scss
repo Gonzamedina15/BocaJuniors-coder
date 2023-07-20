@@ -18,8 +18,8 @@
 /*jugadores*/
 // Jugadores
 .jugadores{
-    max-width: 100%;
-    max-height: 100%;
+    // max-width: 100%;
+    // max-height: 100%;
     h2{
         text-align: center;
         font-family: 'Oswald', sans-serif;
@@ -38,9 +38,7 @@
         margin-bottom: 10px;
         box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.74);
         transition: 0.3s;
-        ul{
-            list-style-type: none;
-        }
+    
     
         &:hover{
         transform: scale(0.8);

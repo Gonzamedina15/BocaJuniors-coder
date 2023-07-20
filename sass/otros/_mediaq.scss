@@ -1,8 +1,86 @@
 /*-------------------------------------------------------------------------*/
 //  Rsponsive
-
  /* responsive */
- @media screen and (max-width: 650px) {
+//  Tablet
+/*tablet*/
+ @media screen and (max-width: 1024px) {
+
+    //INDEX
+    /*Index*/
+    // noticia1
+    /* noticia1 */
+    .not1{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+       h3{
+         text-align: center;
+        }
+       p{
+         text-align: center;
+         text-align: justify;
+       }
+       img{
+         width: 80%;
+        }
+     } 
+     // iframe
+     /* iframe */
+    .presentacion{
+       iframe{
+          width: 100%;
+       }
+     
+    }
+      //cards   
+   /* cards */
+   .medina{
+      display: none;
+    } 
+   //   La Bombonera
+   /* La bombonera */
+   .historia{
+      iframe{
+         width: 100%;
+         margin-bottom: 10px;
+      }
+      h2{
+         text-align: center;
+      }
+   }  
+   //   Hitos historicos
+   /*hitos historicos*/
+   .la-sexta h2{
+      text-align: center;
+   }
+   .carousel{
+      margin-bottom: 20px;
+   }
+   // Contactanos
+      /*contactanos*/
+   .contactanos{
+      h1{
+         text-align: center;
+      }
+      p{
+         text-align: center;
+      }
+      .formulario{
+         iframe{
+            margin-top: 5px;
+            width: 100%;
+         }
+      }
+   }
+ }
+
+//  Mobile
+/*mobile*/
+ @media screen and (max-width: 576px) {
+   header{
+      max-width: 100%;
+   }
 
     //INDEX
     /*Index*/
@@ -26,8 +104,11 @@
     } 
     // iframe
     /* iframe */
-   .presentacion iframe{
-     width: 500px;
+   .presentacion{
+      iframe{
+         width: 100%;
+      }
+    
    }
     //cards   
    /* cards */
@@ -60,8 +141,8 @@
   .la-sexta h2{
    text-align: center;
   }
-  .carousel-inner{
-   margin-bottom: 10px;
+  .carousel{
+   margin-bottom: 20px;
   }
 
 //   Plantel 2023
@@ -69,6 +150,25 @@
 .espacios{
    padding-left: 10px;
    padding-right: 3px;
+}
+.card{
+   transition: none;
+   img{
+      width: 100%;
+   }
+   .card-body{
+      padding: 0;
+      p{
+         font-size: 80%;
+         padding: 5px;
+         margin: 0;
+      }
+   &:hover{
+      transform: none;
+   }
+
+   }
+  
 }
 // Contactanos
 /*contactanos*/
@@ -79,6 +179,13 @@
    p{
       text-align: center;
    }
+   .formulario{
+      iframe{
+         margin-top: 5px;
+         width: 100%;
+      }
+   }
 }
 
 }
+

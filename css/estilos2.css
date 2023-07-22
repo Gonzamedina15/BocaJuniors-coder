@@ -21,7 +21,7 @@ header nav .nav-link:focus {
   color: #f6f1f1;
 }
 header nav .logo {
-  transition: 1s;
+  transition: 0.3s;
 }
 header nav .logo:hover {
   transform: scale(0.8);
@@ -44,10 +44,41 @@ header nav .navbar-toggler {
 footer {
   background-color: #0033a0;
   color: #ffd600;
+  display: flex;
+  justify-content: end;
 }
 footer img {
   max-width: 60px;
   height: auto;
+}
+footer .container {
+  position: relative;
+  width: 50%;
+  /*  choose your size */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: end;
+}
+footer .container button {
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-color: #ffd600;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+footer .container button:hover {
+  background-color: #f6f1f1;
+}
+footer .icon {
+  width: 26px;
+  height: 26px;
+  fill: #0033a0;
 }
 
 /*---------------------------------------------------------------------*/
@@ -328,6 +359,10 @@ footer img {
 .contactanos .formulario {
   font-size: 20px;
 }
+.contactanos .formulario iframe {
+  width: 100%;
+  margin-top: 10px;
+}
 .contactanos .formulario .btn {
   color: #ffd600;
   font-size: 20px;
@@ -370,10 +405,6 @@ footer img {
   .presentacion iframe {
     width: 100%;
   }
-  /* cards */
-  .medina {
-    display: none;
-  }
   /* La bombonera */
   .historia iframe {
     width: 100%;
@@ -403,9 +434,6 @@ footer img {
 }
 /*mobile*/
 @media screen and (max-width: 576px) {
-  header {
-    max-width: 100%;
-  }
   /*Index*/
   /* noticia1 */
   .not1 {
@@ -457,10 +485,6 @@ footer img {
     margin-bottom: 20px;
   }
   /*plantel 2023*/
-  .espacios {
-    padding-left: 10px;
-    padding-right: 3px;
-  }
   .card {
     transition: none;
   }

@@ -33,11 +33,7 @@
        }
      
     }
-      //cards   
-   /* cards */
-   .medina{
-      display: none;
-    } 
+
    //   La Bombonera
    /* La bombonera */
    .historia{
@@ -78,9 +74,6 @@
 //  Mobile
 /*mobile*/
  @media screen and (max-width: 576px) {
-   header{
-      max-width: 100%;
-   }
 
     //INDEX
     /*Index*/
@@ -147,10 +140,6 @@
 
 //   Plantel 2023
 /*plantel 2023*/
-.espacios{
-   padding-left: 10px;
-   padding-right: 3px;
-}
 .card{
    transition: none;
    img{

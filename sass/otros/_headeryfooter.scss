@@ -24,7 +24,7 @@ header{
         
         }
         .logo{
-            transition: 1s;
+            transition: 0.3s;
             &:hover{
                 transform: scale(0.8);
             }
@@ -52,9 +52,45 @@ header{
 footer{
     background-color: #0033a0;
     color: #ffd600;
+    display: flex;
+    justify-content: end;
+    
     img{
         max-width: 60px;
         height: auto;
     }
 
+    .container {
+        position: relative;
+        width: 50%;
+       /*  choose your size */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        gap: 10px;
+        justify-content: end;
+
+      }
+      
+      .container button {
+        width: 50px;
+        height: 50px;
+        border: none;
+        background-color: $color-amarillo;
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+        cursor: pointer;
+        &:hover{
+            background-color: $color-blanco;
+        }
+      }
+      
+      .icon {
+        width: 26px;
+        height: 26px;
+        fill: $color-azul;
+      }
+      
 }

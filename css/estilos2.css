@@ -229,6 +229,9 @@ footer .icon {
 .la-sexta, .intercontinental {
   background-color: #f6f1f1;
 }
+.la-sexta .carousel img, .intercontinental .carousel img {
+  width: 100%;
+}
 .la-sexta h2, .intercontinental h2 {
   font-family: "Oswald", sans-serif;
   color: #0033a0;

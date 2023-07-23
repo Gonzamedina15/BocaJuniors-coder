@@ -57,39 +57,41 @@
     }
     //  cards
     /*cards*/
-    .card{
-        font-family: 'Bebas Neue', sans-serif;
-        color:$color-amarillo;
-        background-color: $color-azul;
-        font-size: 150%;
-        text-shadow: none;
-        text-decoration: none;
-        margin-bottom: 10px;
-        box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.74);
-        transition: 0.3s;
-    
-        margin-bottom: 10px;
-        &:hover{
-            transform: scale(0.8);
-        }
-        p{
-            color: $color-amarillo;
-        }
-        a{
-            color: $color-amarillo;
-        }
+    .boca-hoy{
+        width: 90%;
+        max-width: 1200px;
+        margin: 20px auto;
+        .card{
+            background-color: $color-azul;
+            margin-bottom: 5px;
+            border-radius: 8px;
+            h2{
+                font-family: 'Oswald', sans-serif;
+                text-align: center;
+                color: $color-amarillo;
+            }
+            img{
+                width: 100%;
+                display: block;
+                border-radius: 8px 0px 0px;
+            }
+            .card-body{
+                padding: 20px 15px;
+            }
+            .btn{
+                background-color: $color-amarillo;
+                color: $color-azul;
+                display: block;
+                padding: 10px;
+                text-align: center;
+                text-decoration: none;
+                margin: 5px 5px;
+                border-radius: 8px;
 
-        // .bvp{
-        //     width: 100%;
-        // }
-        // .rojo{
-        //     width: 100%;
-        // }
-        // .medina{
-        //     width: 100%;
-        // }
-        
+            }
+        }
     }
+   
 }
 
 

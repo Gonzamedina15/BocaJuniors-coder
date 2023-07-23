@@ -136,26 +136,38 @@ footer .icon {
   font-family: "Bebas Neue", sans-serif;
   text-decoration: underline;
 }
-.noticias .card {
-  font-family: "Bebas Neue", sans-serif;
-  color: #ffd600;
+.noticias .boca-hoy {
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+.noticias .boca-hoy .card {
   background-color: #0033a0;
-  font-size: 150%;
-  text-shadow: none;
+  margin-bottom: 5px;
+  border-radius: 8px;
+}
+.noticias .boca-hoy .card h2 {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  color: #ffd600;
+}
+.noticias .boca-hoy .card img {
+  width: 100%;
+  display: block;
+  border-radius: 8px 0px 0px;
+}
+.noticias .boca-hoy .card .card-body {
+  padding: 20px 15px;
+}
+.noticias .boca-hoy .card .btn {
+  background-color: #ffd600;
+  color: #0033a0;
+  display: block;
+  padding: 10px;
+  text-align: center;
   text-decoration: none;
-  margin-bottom: 10px;
-  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.74);
-  transition: 0.3s;
-  margin-bottom: 10px;
-}
-.noticias .card:hover {
-  transform: scale(0.8);
-}
-.noticias .card p {
-  color: #ffd600;
-}
-.noticias .card a {
-  color: #ffd600;
+  margin: 5px 5px;
+  border-radius: 8px;
 }
 
 /*--------------------------------------------------------------------------*/
@@ -404,6 +416,7 @@ footer .icon {
   .presentacion iframe {
     width: 100%;
   }
+  /*cards*/
   /* La bombonera */
   .historia iframe {
     width: 100%;
@@ -454,10 +467,6 @@ footer .icon {
   /* iframe */
   .presentacion iframe {
     width: 100%;
-  }
-  /* cards */
-  .medina {
-    display: none;
   }
   /* La bombonera */
   .historia iframe {

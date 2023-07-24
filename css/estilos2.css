@@ -136,38 +136,41 @@ footer .icon {
   font-family: "Bebas Neue", sans-serif;
   text-decoration: underline;
 }
-.noticias .boca-hoy {
-  width: 90%;
-  max-width: 1200px;
-  margin: 20px auto;
+.noticias .boca-hoy .row {
+  max-width: 100%;
+  margin: 0px auto;
 }
-.noticias .boca-hoy .card {
+.noticias .boca-hoy .row .card {
+  margin: 10px auto;
+  transition: 0.3s;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.74);
+}
+.noticias .boca-hoy .row .card img {
+  border-radius: 10px 10px 0px 0px;
+}
+.noticias .boca-hoy .row .card:hover {
+  transform: scale(0.8);
+}
+.noticias .boca-hoy .row .card .card-body {
   background-color: #0033a0;
-  margin-bottom: 5px;
-  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 0px 0px 10px 10px;
 }
-.noticias .boca-hoy .card h2 {
-  font-family: "Oswald", sans-serif;
-  text-align: center;
+.noticias .boca-hoy .row .card .card-body h5 {
   color: #ffd600;
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
 }
-.noticias .boca-hoy .card img {
-  width: 100%;
-  display: block;
-  border-radius: 8px 0px 0px;
-}
-.noticias .boca-hoy .card .card-body {
-  padding: 20px 15px;
-}
-.noticias .boca-hoy .card .btn {
+.noticias .boca-hoy .row .card .card-body .btn {
+  border: solid #ffd600;
   background-color: #ffd600;
   color: #0033a0;
-  display: block;
-  padding: 10px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 5px;
-  border-radius: 8px;
+}
+.noticias .boca-hoy .row .card .card-body .btn:focus {
+  text-decoration: underline;
 }
 
 /*--------------------------------------------------------------------------*/
@@ -189,6 +192,7 @@ footer .icon {
 
 /*jugadores*/
 .jugadores {
+  background-color: #f6f1f1;
   /* cards */
 }
 .jugadores h2 {
@@ -201,12 +205,20 @@ footer .icon {
   font-family: "Bebas Neue", sans-serif;
   color: #ffd600;
   background-color: #0033a0;
-  font-size: 150%;
   text-shadow: none;
   text-decoration: none;
   margin-bottom: 10px;
   box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.74);
   transition: 0.3s;
+}
+.jugadores .card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.jugadores .card .card-body p {
+  font-size: 20px;
 }
 .jugadores .card:hover {
   transform: scale(0.8);
@@ -491,24 +503,6 @@ footer .icon {
   }
   .carousel {
     margin-bottom: 20px;
-  }
-  /*plantel 2023*/
-  .card {
-    transition: none;
-  }
-  .card img {
-    width: 100%;
-  }
-  .card .card-body {
-    padding: 0;
-  }
-  .card .card-body p {
-    font-size: 80%;
-    padding: 5px;
-    margin: 0;
-  }
-  .card .card-body:hover {
-    transform: none;
   }
   /*contactanos*/
   .contactanos h1 {

@@ -1,7 +1,6 @@
 /*---------------------------------------------------------------------*/
 // INDEX
 /*INDEX*/
-
 // titulo y banner
 /*titulo y banner*/
 .titulo{
@@ -36,6 +35,7 @@
     font-family: 'Bebas Neue', sans-serif;
     color: $color-azul;
     background-color: $color-amarillo;
+    
     .not1{
         display: flex;
         flex-direction: column;
@@ -58,41 +58,54 @@
     //  cards
     /*cards*/
     .boca-hoy{
-        width: 90%;
-        max-width: 1200px;
-        margin: 20px auto;
-        .card{
-            background-color: $color-azul;
-            margin-bottom: 5px;
-            border-radius: 8px;
-            h2{
-                font-family: 'Oswald', sans-serif;
-                text-align: center;
-                color: $color-amarillo;
-            }
-            img{
-                width: 100%;
-                display: block;
-                border-radius: 8px 0px 0px;
-            }
-            .card-body{
-                padding: 20px 15px;
-            }
-            .btn{
-                background-color: $color-amarillo;
-                color: $color-azul;
-                display: block;
-                padding: 10px;
-                text-align: center;
-                text-decoration: none;
-                margin: 5px 5px;
-                border-radius: 8px;
-
+        .row{
+            max-width: 100%;
+            margin: 0px auto;
+           
+            .card{
+                margin: 10px auto;
+                transition: 0.3s;
+                border-radius: 10px 10px 10px 10px;
+                box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.74);
+                img{
+                    border-radius: 10px 10px 0px 0px;
+                }
+                &:hover{
+                    transform: scale(0.8);
+                }
+                .card-body{
+                    background-color: $color-azul;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    border-radius: 0px 0px 10px 10px;
+                    h5{
+                        color: $color-amarillo;
+                        font-family: 'Bebas Neue', sans-serif;
+                        text-align: center;
+                    }
+                    .btn{
+                        border: solid $color-amarillo ;
+                        background-color: $color-amarillo;
+                        color: $color-azul;
+                        &:focus{
+                            text-decoration: underline;
+                        }
+                        
+                    }
+        
+                }
+        
+               
             }
         }
+       
+    
     }
    
+   
 }
+
 
 
 

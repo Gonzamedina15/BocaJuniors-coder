@@ -1,7 +1,6 @@
 /*--------------------------------------------------------------------------*/
 /* Plantel 2023 */
 // plantel 2023
-   
 /*banner*/
 // Banner
 .banner{
@@ -18,6 +17,7 @@
 /*jugadores*/
 // Jugadores
 .jugadores{
+    background-color: $color-blanco;
     h2{
         text-align: center;
         font-family: 'Oswald', sans-serif;
@@ -30,18 +30,24 @@
         font-family: 'Bebas Neue', sans-serif;
         color:$color-amarillo;
         background-color: $color-azul;
-        font-size: 150%;
         text-shadow: none;
         text-decoration: none;
         margin-bottom: 10px;
         box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.74);
         transition: 0.3s;
-    
-    
+        .card-body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            p{
+                font-size: 20px;
+            }
+        }
         &:hover{
         transform: scale(0.8);
-            
         }
+       
     }
 }
 /*Cuerpo tecnico*/

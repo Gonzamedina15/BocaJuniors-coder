@@ -54,7 +54,6 @@ footer img {
 footer .container {
   position: relative;
   width: 50%;
-  /*  choose your size */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -240,6 +239,7 @@ footer .icon {
   background-image: url(../medios/bannerhh2.jpg);
   height: 200px;
   background-size: cover;
+  background-color: #f6f1f1;
 }
 .hitos h1 {
   text-align: center;
@@ -250,25 +250,27 @@ footer .icon {
 }
 
 /* La sexta */
-.la-sexta, .intercontinental {
-  background-color: #f6f1f1;
+.la-sexta .row, .intercontinental .row {
+  max-width: 100%;
+  margin: 0px auto;
 }
-.la-sexta .carousel img, .intercontinental .carousel img {
-  width: 100%;
+.la-sexta .row .carousel, .intercontinental .row .carousel {
+  margin: 5px 0px;
 }
-.la-sexta h2, .intercontinental h2 {
+.la-sexta .row h2, .intercontinental .row h2 {
   font-family: "Oswald", sans-serif;
   color: #0033a0;
   text-decoration: underline;
 }
-.la-sexta p, .intercontinental p {
+.la-sexta .row p, .intercontinental .row p {
   font-family: "Bebas Neue", sans-serif;
   color: #0033a0;
   text-align: justify;
+  font-size: 25px;
 }
 
 /* intercontinental 2003 */
-.intercontinental {
+.intercontinental .row {
   background-color: #ffd600;
 }
 
@@ -428,7 +430,6 @@ footer .icon {
   .presentacion iframe {
     width: 100%;
   }
-  /*cards*/
   /* La bombonera */
   .historia iframe {
     width: 100%;

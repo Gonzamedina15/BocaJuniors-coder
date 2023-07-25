@@ -63,7 +63,6 @@ footer{
     .container {
         position: relative;
         width: 50%;
-       /*  choose your size */
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -72,9 +71,9 @@ footer{
         gap: 10px;
         justify-content: end;
 
-      }
-      
-      .container button {
+    }
+    
+        .container button {
         width: 50px;
         height: 50px;
         border: none;
@@ -85,12 +84,12 @@ footer{
         &:hover{
             background-color: $color-blanco;
         }
-      }
-      
-      .icon {
+    }
+    
+        .icon {
         width: 26px;
         height: 26px;
         fill: $color-azul;
-      }
-      
+    }
+    
 }

@@ -6,12 +6,12 @@
     color: $color-azul;
     font-family: 'Bebas Neue', sans-serif;
     h1{
-        @include titulos(center,$color-amarillo,0px 0px 7px rgba(0,0,0,0.57),underline);
-        font-family: 'Oswald', sans-serif;
-        color: $color-azul;
-        text-align: start;
-        text-shadow: none;
-    }
+      @include titulos(center,$color-amarillo,0px 0px 7px rgba(0,0,0,0.57),underline);
+      font-family: 'Oswald', sans-serif;
+      color: $color-azul;
+      text-align: start;
+      text-shadow: none;
+   }
     .formulario{
       font-size: 20px;
       iframe{

@@ -1,10 +1,12 @@
 //  ------------------------------------------------------------
  /* HITOS HISTORICOS */
 // HITOS HISTORICOS
+
 .hitos{
     background-image: url(../medios/bannerhh2.jpg);
     height: 200px;
     background-size: cover;
+    background-color: $color-blanco;
     h1{
         @include titulos(center,$color-amarillo,0px 0px 7px rgba(0,0,0,0.57),underline);
         font-family: 'Oswald', sans-serif;
@@ -13,23 +15,27 @@
  /* La sexta */
 //  La sexta
  .la-sexta{
-    background-color: $color-blanco;
-    .carousel{
-        img{
-            width: 100%;
+   
+    .row{
+        max-width: 100%;
+        margin: 0px auto;
+        .carousel{
+            margin: 5px 0px;
+        }
+        h2{
+            font-family: 'Oswald', sans-serif;
+            color:$color-azul;
+            text-decoration: underline;
+        }
+        p{
+            font-family: 'Bebas Neue', sans-serif;
+            color: $color-azul;
+            text-align: justify;
+            font-size: 25px;
+        
         }
     }
-    h2{
-        font-family: 'Oswald', sans-serif;
-        color:$color-azul;
-        text-decoration: underline;
-    }
-    p{
-        font-family: 'Bebas Neue', sans-serif;
-        color: $color-azul;
-        text-align: justify;
-    
-    }
+   
    
    
 
@@ -39,6 +45,11 @@
  /* intercontinental 2003 */
 //  Intercontinental 2003
  .intercontinental{
+    .row{
+        background-color: $color-amarillo;
+    }
+   
     @extend .la-sexta;
-    background-color: $color-amarillo;
+
+  
  }
